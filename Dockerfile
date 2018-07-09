@@ -1,4 +1,4 @@
-FROM openjdk:8 as builder
+FROM openjdk:8
 ADD . /code/
 RUN \
     apt-get update && \
